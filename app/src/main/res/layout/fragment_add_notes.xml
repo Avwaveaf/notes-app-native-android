@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_note_title"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="@string/notes_title"
+            android:paddingVertical="6dp"
+            tools:text="sdfjklksdfj"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/baseline_format_align_left_24"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_note_title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:id="@+id/ic_description"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/notes_description"
+            app:layout_constraintTop_toTopOf="@id/ic_description"
+            app:layout_constraintStart_toEndOf="@id/ic_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:id="@+id/edit_text_note_description" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
