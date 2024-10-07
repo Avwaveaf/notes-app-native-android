@@ -30,18 +30,17 @@ The *Note Taking App* is a simple yet powerful mobile application for managing a
 5. **Local Data Persistence:** Room database is used for storing notes locally, ensuring that notes are saved and accessible even when the app is closed.
 
 ## Screenshots
-[Drag & drop screenshots here or use imgur and reference them using imgsrc]
 
 - **Ref 1: Home Screen with Note List**  
-  ![Home Screen](https://github.com/Avwaveaf/screenshots/blob/main/Screenshot_1728292473.png)
+  <img src="https://github.com/Avwaveaf/screenshots/blob/main/Screenshot_1728292473.png" alt="Home Screen" width="250"/>  
   *This screenshot shows the main note list screen where users can view, add, or delete notes.*
 
 - **Ref 2: Note Creation Screen**  
-  ![Note Creation Screen](https://github.com/Avwaveaf/screenshots/blob/main/Screenshot_1728292517.png)
+  <img src="https://github.com/Avwaveaf/screenshots/blob/main/Screenshot_1728292517.png" alt="Note Creation Screen" width="250"/>  
   *The note creation screen allows users to input the note title and content.*
 
 - **Ref 3: Search Functionality**  
-  ![Search Screen](https://github.com/Avwaveaf/screenshots/blob/main/Screenshot_1728292534.png)
+  <img src="https://github.com/Avwaveaf/screenshots/blob/main/Screenshot_1728292534.png" alt="Search Screen" width="250"/>  
   *A SearchView is integrated into the app to allow users to filter notes based on keywords in the title or content.*
 
 ## Steps
